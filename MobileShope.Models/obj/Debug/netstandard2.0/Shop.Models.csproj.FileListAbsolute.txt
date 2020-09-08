@@ -1,0 +1,8 @@
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\bin\Debug\netstandard2.0\Shop.Models.deps.json
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\bin\Debug\netstandard2.0\Shop.Models.dll
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\bin\Debug\netstandard2.0\Shop.Models.pdb
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\obj\Debug\netstandard2.0\Shop.Models.AssemblyInfoInputs.cache
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\obj\Debug\netstandard2.0\Shop.Models.AssemblyInfo.cs
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\obj\Debug\netstandard2.0\Shop.Models.csproj.CoreCompileInputs.cache
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\obj\Debug\netstandard2.0\Shop.Models.dll
+C:\Users\tamik\source\repos\MobileShop\MobileShope.Models\obj\Debug\netstandard2.0\Shop.Models.pdb

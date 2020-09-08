@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "sixbL0lxW1RwTakt9FdAkv4VTWlDxzATEEePC/ON256LVijldq3nKBLbdLEH7ZBFnSB0DRjERXedIWygjKlnGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tamik\\source\\repos\\MobileShop\\MobileShope.Models\\Shop.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tamik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\tamik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\tamik\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
