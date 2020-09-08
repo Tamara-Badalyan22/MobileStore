@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Shop.Models.Brand>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Brands</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create </a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th hidden>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th hidden>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td hidden>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td hidden>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            @{
+                if (Context.User.Identity.IsAuthenticated)
+                {
+                   
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.ID" class="btn btn-primary">Edit</a>
+                        <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-primary">Details</a>
+                        <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-primary">Delete</a>
+                    </td>
+                   
+                }
+            }
+
+        </tr>
+}
+    </tbody>
+</table>
