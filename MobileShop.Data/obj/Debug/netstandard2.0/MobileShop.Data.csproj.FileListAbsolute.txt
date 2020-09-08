@@ -1,0 +1,5 @@
+C:\Users\tamik\source\repos\MobileShop\MobileShop.Data\bin\Debug\netstandard2.0\MobileShop.Data.deps.json
+C:\Users\tamik\source\repos\MobileShop\MobileShop.Data\bin\Debug\netstandard2.0\MobileShop.Data.dll
+C:\Users\tamik\source\repos\MobileShop\MobileShop.Data\obj\Debug\netstandard2.0\MobileShop.Data.csprojAssemblyReference.cache
+C:\Users\tamik\source\repos\MobileShop\MobileShop.Data\obj\Debug\netstandard2.0\MobileShop.Data.AssemblyInfoInputs.cache
+C:\Users\tamik\source\repos\MobileShop\MobileShop.Data\obj\Debug\netstandard2.0\MobileShop.Data.AssemblyInfo.cs
