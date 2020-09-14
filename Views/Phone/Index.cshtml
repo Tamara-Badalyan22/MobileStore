@@ -71,4 +71,11 @@
             }
         </tbody>
     </table>
+     <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option>--Select--</option>
+        @for (int i = 0; i < (int)ViewData["PageCount"]; i++)
+        {
+            <option value="/Phone/Index?pagenumber=@(i+1)&&pagesize=5">@(i+1)</option>
+        }
+    </select>
 </div>
