@@ -26,14 +26,19 @@ namespace MobileShop.Controllers
         }
 
         // GET: Phone
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int pagenumber=1,int pagesize=5)
         {
+           
             List<Phone> phones = await _repasitory.GetAll();
             foreach (var item in phones)
             {
                 item.PhoneBrand =await _repasitoryBrand.Get(item.BrandID);
             }
-            return View(phones);
+            if(phones.Count % pagesize==0)
+             ViewData["PageCount"] = phones.Count / pagesize; 
+            else
+                ViewData["PageCount"] = phones.Count / pagesize+1;
+            return View(phones.Skip((pagenumber-1)*pagesize).Take(pagesize));
         }
 
         // GET: Phone/Details/5
